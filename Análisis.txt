@@ -1,0 +1,25 @@
+En cuánto a los requerimientos, el problema está en que son muchos aspectos a analizar:
+
+-evaluar primero si la persona que quieren asegurar es mayor de edad
+-también si está casado o no
+-si está casado se verifica el rango de edad del cónyuge para el recargo adicional
+-si tiene hijos o no
+-también se le agrega un cargo extra de 20% por cada hijo que tenga.
+-analizar el rango de edad del asegurado y dependiendo de ello se le hará un porcentaje
+de cargo adicional al precio base del seguro
+-para analizar los rangos de edad tienen una pequeña tabla para agregar un % en base al precio
+	de 18 a 24 agregan un 10%
+	de 25 a 49 agregan un 20%
+	de 50 años o más  
+
+Son varias acciones que pudieran ser simples, pero hacerlos manualmente llevan bastante tiempo,
+un pequeño error podría generar pérdidas a la empresa o afectar a quien adquiere el seguro. También
+se debe automatizar este trabajo ya que se tiene un plan de como manejar los datos, y esto lo puede
+hacer un programa en menor tiempo y con mayor exactitud. 
+
+Otro aspecto de este problema es que la empresa solo genera 50 cotizaciones al día,
+siguiendo el mismo patrón con el que se captan datos, lo cual puede agilizarse en un
+programa que pida la misma información, la evalúe, y nos dé el resultado en poco tiempo.
+Lo que llevaría a aumentar la cantidad de cotizaciones que pueden generar en un día.
+El tiempo sería más aprovechado y daría más ganancias a la empresa. Al automatizar darían un 
+gran paso para el crecimiento de la misma empresa.

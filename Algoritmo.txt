@@ -1,0 +1,43 @@
+Algoritmo en base al Procedimiento a seguir para una cotización de un seguro:
+
+1. Solicitar la edad de la persona que se va a asegurar.
+2. Verificar si la persona a asegurar es mayor de edad
+	a. Si tiene menos de 18 años no puede ser asegurado.
+	   Así que no se puede realizar el trámite.
+	b. Si tiene más de 17 años, quiere decir que es mayor
+	   de edad y se continúa con el proceso.
+3. Presentar el plan base del seguro (precio Q2,000.00).
+4. Exponer que habrán recargos que se sumarán al precio base.
+5. Realizar el Primer recargo en base al rango en el que esté la edad del asegurado.
+	a. Si tiene de 18 a 24 años, el recargo será de un 10% del precio base.
+		I. Entonces se realiza la operación ( precio * 0.10 )
+		II. Se suma el resultado con el precio del seguro ( precio * 0.10 ) + precio = total
+	b. Si tiene de 25 a 49 años, el recargo será de un 20% del precio base.
+		I. Entonces se realiza la operación ( precio * 0.20 )
+		II. Se suma el resultado con el precio del seguro ( precio * 0.20 ) + precio = total
+	c. Si tiene de 50 años o más, el recargo será de un 30% del precio base.
+		I. Entonces se realiza la operación ( precio * 0.30 )
+		II. Se suma el resultado con el precio del seguro ( precio * 0.30 ) + precio = total
+6. Realizar el Segundo recargo en base a su estado civil.
+7. Preguntar si el asegurado está casado.
+	a. Si no está casado pasamos al siguiente recargo.
+	b. Si está casado solicitamos la edad del cónyuge y se evalúa el rango de edad para el recargo
+		I. Si tiene de 18 a 24 años, el recargo será de un 10% del precio base.
+			A. Entonces se realiza la operación ( precio * 0.10 )
+			B. Se suma el resultado al total que hay hasta el momento (precio * 0.10) + total
+		II. Si tiene de 25 a 49 años, el recargo será de un 20% del precio base.
+			A. Entonces se realiza la operación ( precio * 0.20 )
+			B. Se suma el resultado al total que hay hasta el momento (precio * 0.20) + total
+		III. Si tiene de 50 años o más, el recargo será de un 30% del precio base.
+			A. Entonces se realiza la operación ( precio * 0.30 )
+			B. Se suma el resultado al total que hay hasta el momento (precio * 0.30) + total
+8. Realizar el Tercer Recargo en base a la cantidad de hijos.
+9. Preguntar si el asegurado tiene hijos
+	a. Si no tiene hijos pasamos al siguiente punto.
+	b. Si tiene hijos preguntar la cantidad de hijos que tenga el asegurado.
+		I. Por cada hijo que tenga agregar un recargo del 20% sobre el precio base
+		II. Realizar la siguiente operación (precio * 0.20) * cantidad de hijos
+		III. Sumar el resultado al total que hay hasta el momento
+			( ( precio * 0.20 ) * cantidad de hijos ) + total
+10. Generar la cotización del seguro con los datos
+11. Presentar el total final que arrojaron los datos solicitados.
